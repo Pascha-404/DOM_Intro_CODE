@@ -12,3 +12,12 @@ for (let i = 0; i < colors.length; i++){
 
     letters[i].style.color = colors[i];
 }
+
+// 100 Buttons! : 
+
+for (let i = 0; i < 100; i++){
+    let btn = document.createElement('button');
+    btn.innerText= 'Hey you!';
+    const container = document.querySelector('.container');
+    container.appendChild(btn);
+}
